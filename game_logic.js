@@ -346,7 +346,7 @@ function lang_en () {
   $('#fade_in_input').css('margin-left', '17px');
   $('h3').html("Settings");
   //changing tooltips
-  $('#close_button').prop('title', 'Go back to my Github page.');
+  $('#close_button').prop('title', 'Close the application.');
   $('#start_game_button').prop('title', 'Start the Game.');
   $('#fade_in_input').prop('title', 'Time for fade-in. This is in order for your eyes to concentrate on the game screen after hitting the start button. Default value should be fine.');
   $('#fade_out_input').prop('title', 'Time for fade-out. E.g. how long you can see the numbers until they get hidden. During this time you can not click any numbers.');
@@ -381,7 +381,7 @@ function lang_de () {
   $('#fade_in_input').css('margin-left', '9px');
   $('h3').html("Einstellungen");
   //changing tooltips
-  $('#close_button').prop('title', 'Zurück zur Github Seite.');
+  $('#close_button').prop('title', 'Anwendung schließen.');
   $('#start_game_button').prop('title', 'Spiel starten.');
   $('#fade_in_input').prop('title', 'Die Einblendzeit ist die Zeit bis die Zahlen nach drücken des Start Knopfes auf dem Bildschirm auftauchen und dient dazu, dass sich die Augen auf das Spielfeld konzentrieren können. Der Standardwert sollte ausreichen.');
   $('#fade_out_input').prop('title', 'Die Ausblendzeit gibt an wie lange die Zahlen auf dem Bildschirm auftauchen, bis sie automatisch verdeckt werden. In dieser Zeit können sie noch keine Zahlen anklicken.');
@@ -408,5 +408,4 @@ function saveLang(language){
 function close_app () {
   var window = remote.getCurrentWindow();
   window.close();
-  console.log("Close It");
 }
