@@ -6,7 +6,7 @@ Note: Should be more or less working now, but you may find some bugs. Feel free 
 
 ## Installation
 
-You will need node.js and electron installed on your machine.
+You will need node.js installed on your machine.
 
 1. Install electron if you haven't already: ```$ npm install -g electron-prebuilt```
 2. Clone the Repo: ```$ git clone https://github.com/FrankenApps/ElectronApeMemoryGame```
